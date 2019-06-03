@@ -1,4 +1,5 @@
 FROM python:3.7-alpine
+RUN pip install --upgrade pip
 MAINTAINER Juan Carlos Valderrama Gonzalez
 
 ENV PYTHONUNBUFFERED 1
