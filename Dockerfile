@@ -1,5 +1,6 @@
 FROM python:3.7-alpine
-LABEL maintainer="Juan Carlos Valderrama Gonzalez"
+
+MAINTAINER JCVG
 
 ENV PYTHONUNBUFFERED 1
 
